@@ -12,7 +12,7 @@ namespace ChatGptCarBot.Api.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IMemoryCache _memoryCache;
-        private readonly string apiKey = "";
+        private readonly string apiKey = "<PUT YOUR API KEY HERE>";
 
         public ChatController(IHttpClientFactory httpClientFactory, IMemoryCache memoryCache)
         {
